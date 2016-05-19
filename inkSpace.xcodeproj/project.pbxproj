@@ -16,6 +16,14 @@
 		D1C53B901CEDA4E200C80B91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C53B8F1CEDA4E200C80B91 /* Images.xcassets */; };
 		D1C53B931CEDA4E200C80B91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1C53B911CEDA4E200C80B91 /* LaunchScreen.xib */; };
 		D1C53B9F1CEDA4E200C80B91 /* inkSpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C53B9E1CEDA4E200C80B91 /* inkSpaceTests.m */; };
+		D1C53BB81CEDA57B00C80B91 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C53BA91CEDA57B00C80B91 /* Camera.m */; };
+		D1C53BB91CEDA57B00C80B91 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C53BAB1CEDA57B00C80B91 /* Canvas.m */; };
+		D1C53BBA1CEDA57B00C80B91 /* Plane.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C53BAD1CEDA57B00C80B91 /* Plane.m */; };
+		D1C53BBB1CEDA57B00C80B91 /* Shader.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C53BAF1CEDA57B00C80B91 /* Shader.m */; };
+		D1C53BBC1CEDA57B00C80B91 /* ShaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C53BB11CEDA57B00C80B91 /* ShaderManager.m */; };
+		D1C53BBD1CEDA57B00C80B91 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C53BB31CEDA57B00C80B91 /* Stroke.m */; };
+		D1C53BBE1CEDA57B00C80B91 /* StrokeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C53BB51CEDA57B00C80B91 /* StrokeGenerator.m */; };
+		D1C53BBF1CEDA57B00C80B91 /* Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C53BB71CEDA57B00C80B91 /* Transform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,22 @@
 		D1C53B981CEDA4E200C80B91 /* inkSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inkSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C53B9D1CEDA4E200C80B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1C53B9E1CEDA4E200C80B91 /* inkSpaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = inkSpaceTests.m; sourceTree = "<group>"; };
+		D1C53BA81CEDA57B00C80B91 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		D1C53BA91CEDA57B00C80B91 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		D1C53BAA1CEDA57B00C80B91 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		D1C53BAB1CEDA57B00C80B91 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		D1C53BAC1CEDA57B00C80B91 /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
+		D1C53BAD1CEDA57B00C80B91 /* Plane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plane.m; sourceTree = "<group>"; };
+		D1C53BAE1CEDA57B00C80B91 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		D1C53BAF1CEDA57B00C80B91 /* Shader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shader.m; sourceTree = "<group>"; };
+		D1C53BB01CEDA57B00C80B91 /* ShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderManager.h; sourceTree = "<group>"; };
+		D1C53BB11CEDA57B00C80B91 /* ShaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderManager.m; sourceTree = "<group>"; };
+		D1C53BB21CEDA57B00C80B91 /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		D1C53BB31CEDA57B00C80B91 /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		D1C53BB41CEDA57B00C80B91 /* StrokeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrokeGenerator.h; sourceTree = "<group>"; };
+		D1C53BB51CEDA57B00C80B91 /* StrokeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrokeGenerator.m; sourceTree = "<group>"; };
+		D1C53BB61CEDA57B00C80B91 /* Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
+		D1C53BB71CEDA57B00C80B91 /* Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transform.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +109,10 @@
 		D1C53B7D1CEDA4E100C80B91 /* inkSpace */ = {
 			isa = PBXGroup;
 			children = (
+				D1C53BC21CEDA5CA00C80B91 /* Rendering */,
+				D1C53BAA1CEDA57B00C80B91 /* Canvas.h */,
+				D1C53BAB1CEDA57B00C80B91 /* Canvas.m */,
+				D1C53BC31CEDA5E300C80B91 /* Core */,
 				D1C53B821CEDA4E100C80B91 /* AppDelegate.h */,
 				D1C53B831CEDA4E100C80B91 /* AppDelegate.m */,
 				D1C53B851CEDA4E200C80B91 /* Shader.fsh */,
@@ -123,6 +151,34 @@
 				D1C53B9D1CEDA4E200C80B91 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1C53BC21CEDA5CA00C80B91 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				D1C53BA81CEDA57B00C80B91 /* Camera.h */,
+				D1C53BA91CEDA57B00C80B91 /* Camera.m */,
+				D1C53BAE1CEDA57B00C80B91 /* Shader.h */,
+				D1C53BAF1CEDA57B00C80B91 /* Shader.m */,
+				D1C53BB21CEDA57B00C80B91 /* Stroke.h */,
+				D1C53BB31CEDA57B00C80B91 /* Stroke.m */,
+				D1C53BB41CEDA57B00C80B91 /* StrokeGenerator.h */,
+				D1C53BB51CEDA57B00C80B91 /* StrokeGenerator.m */,
+			);
+			name = Rendering;
+			sourceTree = "<group>";
+		};
+		D1C53BC31CEDA5E300C80B91 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D1C53BAC1CEDA57B00C80B91 /* Plane.h */,
+				D1C53BAD1CEDA57B00C80B91 /* Plane.m */,
+				D1C53BB01CEDA57B00C80B91 /* ShaderManager.h */,
+				D1C53BB11CEDA57B00C80B91 /* ShaderManager.m */,
+				D1C53BB61CEDA57B00C80B91 /* Transform.h */,
+				D1C53BB71CEDA57B00C80B91 /* Transform.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,9 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C53BBA1CEDA57B00C80B91 /* Plane.m in Sources */,
+				D1C53BBF1CEDA57B00C80B91 /* Transform.m in Sources */,
+				D1C53BB81CEDA57B00C80B91 /* Camera.m in Sources */,
 				D1C53B841CEDA4E100C80B91 /* AppDelegate.m in Sources */,
 				D1C53B8B1CEDA4E200C80B91 /* GameViewController.m in Sources */,
+				D1C53BBC1CEDA57B00C80B91 /* ShaderManager.m in Sources */,
+				D1C53BBE1CEDA57B00C80B91 /* StrokeGenerator.m in Sources */,
+				D1C53BB91CEDA57B00C80B91 /* Canvas.m in Sources */,
 				D1C53B811CEDA4E100C80B91 /* main.m in Sources */,
+				D1C53BBB1CEDA57B00C80B91 /* Shader.m in Sources */,
+				D1C53BBD1CEDA57B00C80B91 /* Stroke.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +488,7 @@
 				D1C53BA41CEDA4E200C80B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1C53BA51CEDA4E200C80B91 /* Build configuration list for PBXNativeTarget "inkSpaceTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +497,7 @@
 				D1C53BA71CEDA4E200C80B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

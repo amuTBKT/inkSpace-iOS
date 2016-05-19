@@ -1,28 +1,21 @@
 //
 //  Shader.vsh
-//  inkSpace
+//  Canvas3d
 //
-//  Created by Amit Kumar Mehar on 19/05/16.
+//  Created by Amit Kumar Mehar on 14/05/16.
 //  Copyright (c) 2016 Amit Kumar Mehar. All rights reserved.
 //
 
-attribute vec4 position;
-attribute vec3 normal;
+attribute vec3 a_position;
+attribute vec3 a_texcoord;
 
 varying lowp vec4 colorVarying;
 
-uniform mat4 modelViewProjectionMatrix;
-uniform mat3 normalMatrix;
+uniform mat4 u_modelMatrix;
+uniform mat4 u_cameraMatrix;
 
 void main()
 {
-    vec3 eyeNormal = normalize(normalMatrix * normal);
-    vec3 lightPosition = vec3(0.0, 0.0, 1.0);
-    vec4 diffuseColor = vec4(0.4, 0.4, 1.0, 1.0);
-    
-    float nDotVP = max(0.0, dot(eyeNormal, normalize(lightPosition)));
-                 
-    colorVarying = diffuseColor * nDotVP;
-    
-    gl_Position = modelViewProjectionMatrix * position;
+    colorVarying = vec4(a_texcoord, 1.0);
+    gl_Position = u_cameraMatrix * vec4(a_position, 1.0);
 }
